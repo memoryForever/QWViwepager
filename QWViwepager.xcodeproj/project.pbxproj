@@ -13,7 +13,6 @@
 		498DE4271CEB0C61000C3118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498DE4251CEB0C61000C3118 /* Main.storyboard */; };
 		498DE4291CEB0C61000C3118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498DE4281CEB0C61000C3118 /* Assets.xcassets */; };
 		498DE42C1CEB0C61000C3118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498DE42A1CEB0C61000C3118 /* LaunchScreen.storyboard */; };
-		498DE4361CEB0CDE000C3118 /* QWViwepagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498DE4351CEB0CDE000C3118 /* QWViwepagerViewController.m */; };
 		498DE4521CEB0DC8000C3118 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 498DE4381CEB0DC8000C3118 /* Info.plist */; };
 		498DE4531CEB0DC8000C3118 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 498DE43A1CEB0DC8000C3118 /* MASCompositeConstraint.m */; };
 		498DE4541CEB0DC8000C3118 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 498DE43D1CEB0DC8000C3118 /* MASConstraint.m */; };
@@ -39,8 +38,6 @@
 		498DE4281CEB0C61000C3118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498DE42B1CEB0C61000C3118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498DE42D1CEB0C61000C3118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		498DE4341CEB0CDE000C3118 /* QWViwepagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWViwepagerViewController.h; sourceTree = "<group>"; };
-		498DE4351CEB0CDE000C3118 /* QWViwepagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWViwepagerViewController.m; sourceTree = "<group>"; };
 		498DE4381CEB0DC8000C3118 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		498DE4391CEB0DC8000C3118 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		498DE43A1CEB0DC8000C3118 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -127,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				498DE4371CEB0DC8000C3118 /* Masonry */,
-				498DE4341CEB0CDE000C3118 /* QWViwepagerViewController.h */,
-				498DE4351CEB0CDE000C3118 /* QWViwepagerViewController.m */,
 				498DE4611CEB0E84000C3118 /* QWViwepageView.h */,
 				498DE4621CEB0E84000C3118 /* QWViwepageView.m */,
 			);
@@ -251,7 +246,6 @@
 				498DE4571CEB0DC8000C3118 /* MASViewAttribute.m in Sources */,
 				498DE45B1CEB0DC8000C3118 /* View+MASAdditions.m in Sources */,
 				498DE41E1CEB0C61000C3118 /* main.m in Sources */,
-				498DE4361CEB0CDE000C3118 /* QWViwepagerViewController.m in Sources */,
 				498DE4531CEB0DC8000C3118 /* MASCompositeConstraint.m in Sources */,
 				498DE45A1CEB0DC8000C3118 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
@@ -402,6 +396,7 @@
 				498DE4321CEB0C61000C3118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

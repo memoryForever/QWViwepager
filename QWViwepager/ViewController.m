@@ -5,6 +5,9 @@
 //  Created by 涂清文 on 16/5/17.
 //  Copyright © 2016年 涂清文. All rights reserved.
 //
+/**
+ 使用示例
+ */
 
 #import "ViewController.h"
 #import "QWViwepageView.h"
