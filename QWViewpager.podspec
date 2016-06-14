@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  轮播组件,支持网络,本地,UIImage对象
                    DESC
 
   s.homepage     = "https://github.com/memoryForever/QWViwepager"
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "QWViwepageView", "QWViwepageView.{h,m}"
+  s.source_files  = "QWViwepager/QWViwepageView.{h,m}"
  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
